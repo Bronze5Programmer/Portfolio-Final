@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+	Student Name: Jackson Nickle
+	File Name: contact.html
+	Date: 2/8/2026
+-->
+<html lang="en">
+<head>
+	<title>Contact</title>
+	<meta charset="utf-8">
+	<meta name="description" content="The contact page for my personal portfolio, shows the location of my school and provides a way to directly email me.">
+	<link rel="stylesheet" href="css/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- This is the link for Montserrat font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header id="logo">
+	<h1>Jackson Nickle</h1>
+	<h2> Greetings, this is my personal portfolio, If you are interested in my services, contact me below.</h2>
+	<figure>
+		<img class="portfolioimage" src="images/jacksonnickleface.jpg" alt="A somewhat unflattering picture of myself">
+		<figcaption>Always try to improve at something, even if it is a small thing, you are still bettering yourself</figcaption>
+	</figure>
+</header>
+
+<nav class="mobile-nav">
+				<div id="menu-links">
+					<a href="index.html">Home</a>
+					<a href="project1.html">Project 1</a>
+					<a href="bootstrap.html">Project 2: Boostrap Portfolio</a>
+					<a href="project3.html">Project 3</a>
+					<a href="portfolio.html">Portfolio</a>
+					<a href="filler.html">Filler</a>
+					<a href="contact.html">Contact Me</a>
+				</div>
+				<a class="menu-icon" onclick="hamburger()">
+					<div>&#9776;</div>
+				</a>
+			</nav>
+			<!-- Tablet, Desktop Nav -->
+		<nav class="tablet-desktop">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="project1.html">Project 1</a></li>
+				<li><a href="bootstrap.html">Project 2: Boostrap Portfolio</a></li>
+				<li><a href="project3.html">Project 3</a><li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="filler.html">Filler</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</nav>
+
+<!-- Use The main area to add the main content to the webpage -->
+<main>
+	
+	<article id="contactinfo">
+	<p>My student email is <a class="email" href="mailto:jnickle.mail.npc.edu">jnickle.mail.npc.edu</a></p>
+	<p>This is the location of the school I am currently enrolled at.</p>
+	
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6596.430643483012!2d-110.05619342377545!3d34.24304890763028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872f335afd3ee9f7%3A0xe844ff233c7f6f58!2sNorthland%20Pioneer%20College!5e0!3m2!1sen!2sus!4v1770613795780!5m2!1sen!2sus" 
+		width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	
+	</article>
+
+</main>
+
+<footer>
+	<p><a class="email" href="mailto:jnickle.mail.npc.edu">jnickle.mail.npc.edu</a></p>
+	<a href="https://www.linkedin.com/" target="_blank"><img src="images/LinkedIn_logo_icon.png"></a>
+</footer>
+
+<script src="scripts/script.js"></script>
+
+</body>
+</html>

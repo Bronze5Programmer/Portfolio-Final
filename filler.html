@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+	Student Name: Jackson Nickle
+	File Name: filler.html
+	Date: 3/8/2026
+-->
+<html lang="en">
+<head>
+	<title>Filler</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Filler webpage for my personal portfolio, demonstrates my usage of grid elements as well as the audio element.">
+	<link rel="stylesheet" href="css/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- This is the link for Montserrat font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header id="logo">
+	<h1>Jackson Nickle</h1>
+	<h2> Greetings, this is my personal portfolio, If you are interested in my services, contact me below.</h2>
+	<figure>
+		<img class="portfolioimage" src="images/jacksonnickleface.jpg" alt="A somewhat unflattering picture of myself">
+		<figcaption>Always try to improve at something, even if it is a small thing, you are still bettering yourself</figcaption>
+	</figure>
+</header>
+
+<nav class="mobile-nav">
+				<div id="menu-links">
+					<a href="index.html">Home</a>
+					<a href="project1.html">Project 1</a>
+					<a href="bootstrap.html">Project 2: Boostrap Portfolio</a>
+					<a href="project3.html">Project 3</a>
+					<a href="portfolio.html">Portfolio</a>
+					<a href="filler.html">Filler</a>
+					<a href="contact.html">Contact Me</a>
+				</div>
+				<a class="menu-icon" onclick="hamburger()">
+					<div>&#9776;</div>
+				</a>
+			</nav>
+			<!-- Tablet, Desktop Nav -->
+		<nav class="tablet-desktop">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="project1.html">Project 1</a></li>
+				<li><a href="bootstrap.html">Project 2: Boostrap Portfolio</a></li>
+				<li><a href="project3.html">Project 3</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="filler.html">Filler</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</nav>
+
+<!-- Use The main area to add the main content to the webpage -->
+<main>
+	<article class="grid">
+		<article>
+			<p>I dont have things to write so its gonna be filler all the way down.<p>
+		</article>
+		<article>
+			<p>If you want to listen too some music from the video game Terraria, listen to this:<p>
+				<audio controls>
+				<source src="media/Music-Overworld_Day.mp3" type="audio/mp3">
+				<source src="media/Music-Overworld_Day.ogg" type="audio/ogg">
+				<!-- The following text would display automatically if a <p> element was used, however after checking w3schools for some insight, apparently a fallback is somewhat supported by the audio element. https://www.w3schools.com/tags/tag_source.asp
+				Is there a way to check the fallback element so that I can do it myself?-->
+				Your browser does not support this audio element.
+				</audio>
+		</article>
+		<article>
+			<p>If you want to listen to some old timey sounding music, I recommend <a href="https://www.youtube.com/watch?v=W2o_HupXq1g" target="_blank">Golden Brown</a> by The Stranglers.<p>
+		</article>
+	</article>
+</main>
+
+<footer>
+	<p><a class="email" href="mailto:jnickle.mail.npc.edu">jnickle.mail.npc.edu</a></p>
+	<a href="https://www.linkedin.com/" target="_blank"><img src="images/LinkedIn_logo_icon.png"></a>
+</footer>
+
+<script src="scripts/script.js"></script>
+
+</body>
+</html>
